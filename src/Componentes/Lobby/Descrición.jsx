@@ -1,5 +1,5 @@
 
-function Description() {
+const Description = () => {
     return (
         <section class="bg-darkmoss text-white">
             <section class="bg-gray-900 text-white">
