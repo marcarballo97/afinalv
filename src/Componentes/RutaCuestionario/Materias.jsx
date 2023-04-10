@@ -1,15 +1,23 @@
+import { Link } from "react";
+
 export const Materias = () => {
   return (
-    <div className="card">
-      <div className="circle" style="---clr:#fd7015">
-        <img src="" alt="" className="logo" />
+    <div className="boxesContainer">
+      <div className="cardBox">
+        <div className="card">
+          <div className="front">
+            <h3> Carta uno</h3>
+            <p>Hover the flip</p>
+          </div>
+          <div className="back">
+            <h3>Back side one</h3>
+            <p> Content in card one</p>
+            <Link to="/">
+              <button>Click aqui</button>
+            </Link>
+          </div>
+        </div>
       </div>
-      <div class="content">
-        <h2>Nombre Materia</h2>
-        <p>UNA PEEUQÑE ADECRIPCION DE LA MATERIA</p>
-        <Link to="/">Ingresar</Link>
-      </div>
-      <img src="" alt="" className=""/>
     </div>
   );
 };

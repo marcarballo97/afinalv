@@ -9,6 +9,7 @@ function Navbar() {
           <ul className="menu menu-horizontal px-1">
             <li ><a>LogIn</a></li>
             <li><a>Registrate</a></li>
+            
           </ul>
         </div>
       </div>
